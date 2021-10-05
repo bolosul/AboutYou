@@ -37,6 +37,9 @@ public class NavigationOnHomePage_StepDef {
 
         Assert.assertEquals(expectedTitle,acutalTitle);
 
+        // asssertion added to commit
+
+        /asdagasdasdaasfa
     }
 
 }
