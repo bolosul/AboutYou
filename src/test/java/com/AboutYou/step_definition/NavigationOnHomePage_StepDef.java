@@ -39,7 +39,7 @@ public class NavigationOnHomePage_StepDef {
 
         // asssertion added to commit
 
-        /asdagasdasdaasfa
+        //asdagasdasdaasfa
     }
 
 }
