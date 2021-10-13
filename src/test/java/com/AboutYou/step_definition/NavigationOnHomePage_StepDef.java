@@ -34,12 +34,8 @@ public class NavigationOnHomePage_StepDef {
      String expectedTitle="Board - ABOUT YOU";
      String acutalTitle=Driver.get().getTitle();
 
-
         Assert.assertEquals(expectedTitle,acutalTitle);
 
-        // asssertion added to commit
-
-        //asdagasdasdaasfa
     }
 
 }
