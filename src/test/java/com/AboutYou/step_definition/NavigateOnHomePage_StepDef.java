@@ -40,10 +40,10 @@ public class NavigateOnHomePage_StepDef {
         dashBoardPage.navigateTo(tab);
         BrowserUtils.waitFor(2);
     }
-    @Then("user should land on desired {string}")
-    public void user_should_land_on_desired(String url ) {
+    @Then("customer should see following  {string}")
+    public void customer_should_see_following(String url) {
 
-        String actualUrl=Driver.get().getCurrentUrl();
+    String actualUrl=Driver.get().getCurrentUrl();
         Assert.assertEquals(url,actualUrl);
         Driver.closeDriver();
 

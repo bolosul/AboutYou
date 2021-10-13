@@ -5,7 +5,7 @@
     Scenario Outline: verify if customer is able to nvaigate to "<tab>"
       Given customer is on login page
       When customer clicks on  desired "<tab>"
-      Then user should land on desired "<url>"
+      Then customer should see following  "<url>"
 
       Examples:
         |tab        |url|
