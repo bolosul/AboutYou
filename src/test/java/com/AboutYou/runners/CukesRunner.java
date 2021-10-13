@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/AboutYou/step_definition",
-        dryRun =false,
-        tags = "@wip"
+        dryRun =true,
+        tags = "@prog"
 
 
 )
